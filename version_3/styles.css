@@ -1,0 +1,166 @@
+/*only background and font goes in body as everything else will be handled by the container*/
+body {
+    background: #F2EAEA;
+    font-family: Arial, serif;
+    font-size: large;
+}
+
+/*container styling which involves all content*/
+#container {
+    display: flex;
+    flex-flow: column;
+    padding: 20px;
+}
+
+/*universal styling for title bar*/
+#title_bar{
+    width: 100%;
+    background-color: #81F0A6;
+}
+
+/*navbar styling which is universal across all pages for user then all pages for admin*/
+#nav li{
+    display: inline;
+    margin: 50px;
+}
+
+#nav_bar{
+    width: 100%;
+    height: fit-content;
+    background-color: #90D2EE;
+    text-align: center;
+    font-size: larger;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*link color*/
+a:link{
+    color:black
+}
+
+/*active link*/
+a:active{
+    color: purple;
+}
+
+/* mouse over link */
+a:hover {
+    color: purple;
+}
+
+/*page title styling which is universal across all pages*/
+#page_title{
+    background-color: #ECBDF3;
+    width: 100%;
+}
+
+/*login and register and cfc styling*/
+#user_login, #user_register, #staff_login, #staff_reg, #cfc {
+    background-color: #90D2EE;
+    border-bottom-color: transparent;
+    width: fit-content;
+    padding:0.25%;
+}
+
+#submit{
+    background-color: #81F0A6;
+}
+
+legend{
+    background-color: #ECBDF3;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#user_login, #user_reg, #staff_login, #staff_reg, #cfc tr td {
+    font-size: larger;
+}
+
+/*only cfc styling */
+#cfc legend{
+    background-color: #ECBDF3;
+    width: fit-content;
+    padding-right: 18% ;
+    padding-left: 18%
+}
+
+/*user homepage styling*/
+
+/*solar panel and home energy section styling*/
+#solar_panels, #hems{
+    display: flex;
+    flex-flow: row;
+}
+
+#solar_content, #hems_content{
+    display: flex;
+    flex-flow: column;
+}
+
+#solar_img{
+    width: 15%;
+    height: 15%;
+    padding: 10px
+}
+
+#hems_img{
+    width: 20%;
+    height: 20%;
+    padding: 10px;
+}
+
+/*EV charging section*/
+#ev{
+    display: flex;
+    flex-flow: row-reverse
+}
+
+#ev_content{
+    display: flex;
+    flex-flow: column;
+}
+
+#ev_img{
+    width: 15%;
+    height: 15%;
+    padding: 10px
+}
+
+/*Appointment styling*/
+
+#appointments, #s_homepage {
+    width: fit-content;
+}
+
+#appointments, #s_homepage td tr{
+    padding: 5px;
+}
+
+/*booking styling*/
+#booking_options{
+    background-color: #81F0A6;
+    padding: 10PX;
+}
+
+#booking_options td{
+    padding: 5px;
+}
+
+/*Installation and consultation booking styling*/
+
+#instal , #consul{
+
+    background-color: #90D2EE;
+    border-bottom-color: transparent;
+    width: fit-content;
+    padding:0.25%;
+}
+
+#book{
+    background-color: #81F0A6;
+}
+
+#instal tr td {
+    font-size: larger;
+}
